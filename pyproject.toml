@@ -1,0 +1,29 @@
+[project]
+name = "proyecto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gdown>=5.2.0",
+    "h5py>=3.12.1",
+    "librosa>=0.10.2.post1",
+    "mat73>=0.65",
+    "matplotlib>=3.10.0",
+    "numpy<2.0",
+    "pandas>=2.2.3",
+    "pyloudnorm>=0.1.1",
+    "python-sofa>=0.2.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "soundfile>=0.13.1",
+    "torch>=2.6.0",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
